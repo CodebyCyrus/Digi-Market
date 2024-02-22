@@ -18,9 +18,11 @@ export default function Home() {
           <Link href="/products" className={buttonVariants()}>
             Browse Trending Assets
           </Link>
-          <Button variant={"ghost"}>Our Quality Promise &rarr;</Button>
+          <Button variant={"outline"}>Our Quality Promise &rarr;</Button>
         </div>
       </div>
+
+      {/* {List Products} */}
     </MaxWidthWrapper>
   );
 }
