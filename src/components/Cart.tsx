@@ -77,6 +77,19 @@ const Cart = () => {
             >
               <Image src="/empty-cart.png" fill alt="Empty Shopping Cart" />
             </div>
+            <div className="text-xl font-semibold">Your cart is empty</div>
+            <SheetTrigger asChild>
+              <Link
+                href="/products"
+                className={buttonVariants({
+                  variant: "link",
+                  size: "sm",
+                  className: "text-sm text-muted-foreground",
+                })}
+              >
+                Start Shopping Now
+              </Link>
+            </SheetTrigger>
           </div>
         )}
       </SheetContent>
