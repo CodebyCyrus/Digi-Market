@@ -9,9 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@payloadcms/bundler-webpack": "^1.0.3",
-    "@payloadcms/db-mongodb": "^1.0.3",
-    "@payloadcms/richtext-slate": "^1.0.4",
+    "@payloadcms/bundler-webpack": "^1.0.6",
+    "@payloadcms/db-mongodb": "^1.4.3",
+    "@payloadcms/richtext-slate": "^1.4.0",
     "@radix-ui/react-dialog": "^1.0.5",
     "@radix-ui/react-separator": "^1.0.3",
     "@radix-ui/react-slot": "^1.0.2",
@@ -22,6 +22,7 @@
     "express": "^4.18.2",
     "lucide-react": "^0.336.0",
     "next": "14.1.0",
+    "nodemon": "^3.1.0",
     "payload": "^1.15.8",
     "react": "^18",
     "react-dom": "^18",
