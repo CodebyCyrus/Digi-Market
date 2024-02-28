@@ -6,7 +6,7 @@ import payload, { Payload } from "payload";
 dotenv.config({
   path: path.resolve(__dirname, "../.env"),
 });
-//...
+//.....
 let cached = (global as any).payload;
 
 if (!cached) {
